@@ -1,6 +1,6 @@
-# PangolinShield
+# Beringei Shield
 
-PangolinShield is a Next.js landing page and image-upload demo for the coffee leaf
+Beringei Shield is a Next.js landing page and image-upload demo for the coffee leaf
 screening proof of concept. The Next.js API route forwards images to the
 FastAPI app; the Gemini API key stays on the server.
 

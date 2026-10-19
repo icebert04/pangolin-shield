@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "PangolinShield — A closer look at every coffee leaf",
+  title: "Beringei Shield — A closer look at every coffee leaf",
   description:
-    "A thoughtful AI screening tool for coffee leaf health. Upload a field photo to explore the Pangolin Shield proof of concept.",
+    "A thoughtful AI screening tool for coffee leaf health. Upload a field photo to explore the Beringei Shield proof of concept.",
 };
 
 export default function RootLayout({

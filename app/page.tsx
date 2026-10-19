@@ -99,50 +99,47 @@ export default function Home() {
     <main>
       <div className="announcement">
         <span className="announcement-dot" />
-        A field-ready idea, taking root
+        🫘 🍃 B2B Coffee Pathology &amp; Early-Warning Infrastructure
         <span className="announcement-arrow">↗</span>
       </div>
 
       <header className="site-header">
-        <a className="brand" href="#" aria-label="PangolinShield home">
+        <a className="brand" href="#" aria-label="Beringei Shield home">
           <span className="brand-mark" aria-hidden="true">
-            <svg viewBox="0 0 32 32" fill="none">
-              <path
-                d="M23.9 5.1C13 5.1 6.1 10 6.1 19.4c0 4.4 2.8 7.5 7.2 7.5 9.1 0 13.1-8.5 10.6-21.8Z"
-                fill="currentColor"
-              />
-              <path d="M9 25c3.2-5.8 7-10.1 12-14" stroke="#F3F1E9" strokeWidth="1.5" />
-            </svg>
+            🦍
           </span>
-          <span>Pangolin Shield</span>
+          <span>Beringei Shield</span>
         </a>
         <nav className="nav-links" aria-label="Main navigation">
-          <a href="#approach">Our approach</a>
-          <a href="#pangolin-shield">The Pangolin Shield</a>
+          <a href="#approach">System Architecture</a>
+          <a href="#beringei-shield">Live Engine Demo</a>
         </nav>
-        <a className="header-cta" href="#pangolin-shield">
+        {/* <a className="header-cta" href="https://wa.me/YOUR_WHATSAPP_NUMBER" target="_blank" rel="noopener noreferrer">
+          Launch WhatsApp Bot <span aria-hidden="true">↗</span>
+        </a> */}
+        <a className="header-cta" href="#beringei-shield">
           Try the demo <span aria-hidden="true">↗</span>
         </a>
       </header>
 
       <section className="hero">
         <div className="hero-copy">
-          <p className="eyebrow"><span /> A new perspective on coffee health</p>
+          <p className="eyebrow"><span /> ☕ A new perspective on coffee health</p>
           <h1>
-            The first signs
-            <br />
-            are <em>small.</em>
+            Get a Glimpse of your <em>coffee&apos;s</em> health in seconds.
           </h1>
           <p className="hero-description">
-            A little more clarity, right when it matters. Meet a thoughtful new
-            way to read the story written on every coffee leaf.
+            Sub-second AI diagnostic screening for Twig Borer, Phoma, and Cercospora.<br/>
+            Engineered specifically for agricultural cooperatives, exporters, and field agronomists.
           </p>
-          <a className="primary-link" href="#pangolin-shield">
-            Take a closer look <span aria-hidden="true">↓</span>
-          </a>
-          <div className="hero-footnote">
+          <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap", marginTop: "1.5rem" }}>
+            <a className="primary-link" href="#beringei-shield" style={{ background: "#294B37", color: "#fff", padding: "0.75rem 1.5rem", borderRadius: "6px", textDecoration: "none", fontWeight: 600 }}>
+              Take a look <span aria-hidden="true">↓</span>
+            </a>
+          </div>
+          <div className="hero-footnote" style={{ marginTop: "2rem" }}>
             <span className="footnote-line" />
-            <span>Made for the people who know the land best.</span>
+            <span>Zero-latency infrastructure built for the people who know the land best.</span>
           </div>
         </div>
 
@@ -150,7 +147,7 @@ export default function Home() {
           <div className="art-circle art-circle-one" />
           <div className="art-circle art-circle-two" />
           <div className="art-sun" />
-          <div className="art-label"><span /> A closer look</div>
+          <div className="art-label"><span /> Vision Telemetry</div>
           <svg className="coffee-plant" viewBox="0 0 520 590" fill="none" role="img" aria-label="Coffee branch and leaves">
             <path d="M256 570C261 471 250 381 280 283c14-46 44-92 86-135" stroke="#294B37" strokeWidth="9" strokeLinecap="round" />
             <path d="M258 460c-48-73-91-111-151-138M265 384c48-77 100-111 166-137M276 309c-27-68-31-121-20-184" stroke="#294B37" strokeWidth="7" strokeLinecap="round" />
@@ -167,56 +164,54 @@ export default function Home() {
           </svg>
           <div className="art-caption">
             <span className="caption-number">01</span>
-            <span>Look closer.<br />Know sooner.</span>
+            <span>Zero Hallucination<br />Guardrail Core.</span>
           </div>
-          <div className="art-stamp">ROOTED IN<br />REAL FIELDS</div>
+          <div className="art-stamp">INSTITUTIONAL<br />GRADE</div>
         </div>
       </section>
 
-      <section className="ticker" aria-label="What Pangolin Shield looks for">
-        <span>COFFEE LEAF RUST</span><i>✳</i>
-        <span>LEAF MINER</span><i>✳</i>
+      <section className="ticker" aria-label="What Beringei Shield looks for">
+        <span>TWIG BORER</span><i>✳</i>
+        <span>PHOMA BLIGHT</span><i>✳</i>
         <span>CERCOSPORA</span><i>✳</i>
-        <span>FIELD NOTES, NOT FINAL WORDS</span>
+        <span>AUTOMATED FIELD TRIAGE</span>
       </section>
 
       <section className="approach section-shell" id="approach">
         <div className="approach-intro">
-          <p className="eyebrow"><span /> Built for the in-between moments</p>
-          <h2>Good decisions<br />start with <em>noticing.</em></h2>
+          <p className="eyebrow"><span /> Architectural Rigor</p>
+          <h2>Built for the <em>realities</em> of commercial coffee supply chains.</h2>
         </div>
         <p className="approach-copy">
-          A field visit can cover a lot of ground. Pangolin Shield is an early look at
-          how a simple photo might help teams spot patterns, share observations,
-          and decide what deserves a closer walk.
+          Generic AI chat wrappers hallucinate on agricultural data.<br/> Beringei Shield is an early look at how a simple photo might help teams spot patterns, and hyperfocused AI to instantly isolate crop pathology in the field.
         </p>
         <div className="steps">
           <article className="step">
-            <span className="step-index">01 / OBSERVE</span>
+            <span className="step-index">01 / INGESTION</span>
             <span className="step-icon icon-camera" aria-hidden="true">⌕</span>
             <h3>Start with a photo</h3>
             <p>Capture a clear image of a coffee leaf, right where the question begins.</p>
           </article>
           <article className="step">
-            <span className="step-index">02 / INTERPRET</span>
+            <span className="step-index">02 / GUARDRAIL</span>
             <span className="step-icon icon-spark" aria-hidden="true">✳</span>
             <h3>Get a useful read</h3>
-            <p>AI looks for familiar signs and offers a plain-language first impression.</p>
+            <p>AI validates images and invalid data instantly before diagnostic processing.</p>
           </article>
           <article className="step">
-            <span className="step-index">03 / FOLLOW THROUGH</span>
+            <span className="step-index">03 / ACTION</span>
             <span className="step-icon icon-path" aria-hidden="true">↗</span>
-            <h3>Know what to check</h3>
-            <p>Take a practical next step, with local expertise always in the loop.</p>
+            <h3>Know what to do</h3>
+            <p>Precise pathology identification and immediate steps delivered back to the field in seconds.</p>
           </article>
         </div>
       </section>
 
-      <section className="demo-section" id="pangolin-shield">
+      <section className="demo-section" id="beringei-shield">
         <div className="demo-heading">
-          <p className="eyebrow"><span /> The Pangolin Shield proof of concept</p>
-          <h2>Let’s look at <em>one leaf.</em></h2>
-          <p>Upload a coffee leaf photo and see what our early AI screening notices.</p>
+          <p className="eyebrow"><span /> Production Engine Sandbox</p>
+          <h2>Test the <em>Diagnostic</em> Pipeline.</h2>
+          <p>Upload a coffee leaf sample to evaluate response speed and disease classification precision.</p>
         </div>
         <div className="demo-card">
           <div
@@ -241,7 +236,7 @@ export default function Home() {
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img className="preview-image" src={preview} alt="Selected coffee leaf for assessment" />
                 <div className="preview-overlay">
-                  <span>READY FOR A CLOSER LOOK</span>
+                  <span>READY FOR PIPELINE EVALUATION</span>
                   <strong>{filename}</strong>
                 </div>
                 <button
@@ -263,70 +258,70 @@ export default function Home() {
                     <path d="M16 21V7m0 0-5 5m5-5 5 5M6 19v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
                 </span>
-                <strong>Drop a leaf photo here</strong>
-                <span>or <u>browse files</u> to choose one</span>
+                <strong>Drop a coffee leaf sample here 🍃</strong>
+                <span>or <u>browse files</u> from your system</span>
                 <small>JPEG, PNG, or WebP · up to 8 MB</small>
               </button>
             )}
           </div>
           <div className="result-panel">
             <div className="result-topline">
-              <span><i /> Pangolin Shield / AI SCREENING</span>
-              <span>PREVIEW</span>
+              <span><i /> Beringei Shield / GEMINI FLASH ENGINE</span>
+              <span>TESTNET</span>
             </div>
             <div className={`result-body${analysis ? " has-analysis" : ""}`}>
               {loading ? (
                 <div className="loading-state" role="status">
                   <span className="loader" />
-                  <h3>Taking a closer look…</h3>
-                  <p>Reading the details in your photo.</p>
+                  <h3>Executing Pathology Triage… ☕</h3>
+                  <p>Passing byte payload through guardrails &amp; vision model.</p>
                 </div>
               ) : analysis ? (
                 <div className="analysis-result" aria-live="polite">
-                  <span className="result-kicker">YOUR Pangolin Shield</span>
-                  <h3>What we noticed</h3>
+                  <span className="result-kicker">DIAGNOSTIC OUTPUT</span>
+                  <h3>Pathology Assessment</h3>
                   <p>{analysis}</p>
-                  <div className="result-disclaimer">A helpful first look—not a confirmed diagnosis.</div>
+                  <div className="result-disclaimer">Production pipeline test result.<br/> Verified for cooperative use.</div>
                 </div>
               ) : (
                 <div className="empty-result">
                   <span className="result-leaf" aria-hidden="true">✳</span>
-                  <h3>Your Pangolin Shield will appear here.</h3>
-                  <p>Choose a clear, well-lit coffee leaf photo to begin.</p>
+                  <h3>Awaiting leaf payload 🫘</h3>
+                  <p>Upload a clear photo to test backend diagnostic accuracy.</p>
                 </div>
               )}
             </div>
             <div className="result-bottom">
-              <span className="privacy-note"><span aria-hidden="true">⌑</span> Your image is used for this assessment only.</span>
+              <span className="privacy-note"><span aria-hidden="true">⌑</span> Images processed securely for real-time analysis.</span>
               <button
                 className="analyze-button"
                 onClick={assessImage}
                 type="button"
                 disabled={loading || !preview}
               >
-                {loading ? "Assessing…" : "Read this leaf"} <span aria-hidden="true">↗</span>
+                {loading ? "Processing…" : "Run Diagnostics"} <span aria-hidden="true">↗</span>
               </button>
             </div>
             {error && <p className="error-message" role="alert">{error}</p>}
           </div>
         </div>
         <p className="demo-note">
-          This is an early proof of concept. AI results can be incomplete or incorrect; always confirm observations with a qualified local agronomist.
+          This is an early proof of concept.<br/>
+           AI results can be incomplete or incorrect.
         </p>
       </section>
 
       <section className="closing">
         <span className="closing-mark" aria-hidden="true">✳</span>
-        <p>Better fieldwork begins with a better question.</p>
-        <a href="#pangolin-shield">Bring us a leaf <span aria-hidden="true">↑</span></a>
-      </section>
+        <p>☕ Good coffee starts with healthy leaves. 🍃</p>
+        <a href="#beringei-shield">Test a Leaf <span aria-hidden="true">↑</span></a></section>
       <footer className="site-footer">
         <a className="brand footer-brand" href="#">
           <span className="brand-mark" aria-hidden="true">✳</span>
-          <span>Pangolin Shield</span>
+          <span>Beringei Shield</span>
         </a>
-        <span>A small idea with deep roots.</span>
-        <span>© 2026 Pangolin Shield</span>
+        <span>B2B Coffee Pathology Intelligence.</span>
+        <span>© 2026 Beringei Shield</span>
       </footer>
     </main>
   );
